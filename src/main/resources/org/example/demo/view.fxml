@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="637.0" prefWidth="875.0" xmlns="http://javafx.com/javafx/22"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.demo.controller.ViewController">
+   <children>
+      <TableView layoutX="57.0" layoutY="156.0" prefHeight="399.0" prefWidth="761.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="194.0" text="Id" />
+          <TableColumn fx:id="title" minWidth="0.0" prefWidth="172.0" text="Title" />
+            <TableColumn fx:id="des" prefWidth="184.0" text="des" />
+            <TableColumn fx:id="content" minWidth="0.0" prefWidth="210.0" text="Content" />
+        </columns>
+      </TableView>
+      <Button layoutX="399.0" layoutY="58.0" mnemonicParsing="false" text="Click" onAction="#initialize" />
+   </children>
+</AnchorPane>
